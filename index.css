@@ -1,3 +1,36 @@
 body{
     background-color:black;
+    color:darkgreen;
+}
+.clockWrapper{
+    margin:0;
+    vertical-align:middle;
+    padding:5%;
+    text-align:center;
+}
+.clockFrame{
+    border:darkgreen 4px;
+    width:400px;
+    margin:auto;
+    height:200px;
+    text-align:center;
+    border-style:solid;
+    position:relative;
+}
+
+.clockFace{
+    width:80%;
+    height:100%;
+    margin:auto;
+    vertical-align: middle;
+    padding:5%;
+    text-align:center;
+    position:relative;
+}
+
+.timeFrame{
+    vertical-align: middle;
+    position:absolute;
+    left:9%;
+    top:35%;
 }
